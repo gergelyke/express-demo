@@ -1,1 +1,1 @@
-require('express')().get('/', (req, res) => res.send('Hello World!')).listen(3000)
+require('express')().get('/', (req, res) => res.send('Hello World!')).listen(process.env.PORT)
